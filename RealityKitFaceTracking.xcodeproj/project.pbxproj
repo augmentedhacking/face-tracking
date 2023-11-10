@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32304F152AFAFC05004BC81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32304F142AFAFC05004BC81A /* AppDelegate.swift */; };
+		32304F172AFAFC05004BC81A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32304F162AFAFC05004BC81A /* ContentView.swift */; };
+		32304F192AFAFC07004BC81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32304F182AFAFC07004BC81A /* Assets.xcassets */; };
+		32304F1C2AFAFC07004BC81A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32304F1B2AFAFC07004BC81A /* Preview Assets.xcassets */; };
+		32304F232AFAFC43004BC81A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32304F222AFAFC43004BC81A /* ViewModel.swift */; };
+		32304F272AFAFC8D004BC81A /* FaceTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32304F262AFAFC8D004BC81A /* FaceTrackingARView.swift */; };
+		32304F2C2AFB0D69004BC81A /* wireframeTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 32304F2B2AFB0D69004BC81A /* wireframeTexture.png */; };
+		32304F322AFB1476004BC81A /* wireframeTextureFlipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 32304F312AFB1476004BC81A /* wireframeTextureFlipped.png */; };
+		32304F342AFB1AAC004BC81A /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32304F332AFB1AAC004BC81A /* MathLibrary.swift */; };
+		32D2A8502AFC99CD003D9830 /* wireframeTextureGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D2A84F2AFC99CD003D9830 /* wireframeTextureGray.png */; };
+		32D2A8542AFD432A003D9830 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D2A8532AFD432A003D9830 /* HUDView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32304F112AFAFC05004BC81A /* RealityKitFaceTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealityKitFaceTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32304F142AFAFC05004BC81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32304F162AFAFC05004BC81A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32304F182AFAFC07004BC81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32304F1B2AFAFC07004BC81A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32304F222AFAFC43004BC81A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		32304F262AFAFC8D004BC81A /* FaceTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingARView.swift; sourceTree = "<group>"; };
+		32304F2B2AFB0D69004BC81A /* wireframeTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireframeTexture.png; sourceTree = "<group>"; };
+		32304F312AFB1476004BC81A /* wireframeTextureFlipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireframeTextureFlipped.png; sourceTree = "<group>"; };
+		32304F332AFB1AAC004BC81A /* MathLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		32D2A84F2AFC99CD003D9830 /* wireframeTextureGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireframeTextureGray.png; sourceTree = "<group>"; };
+		32D2A8532AFD432A003D9830 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32304F0E2AFAFC05004BC81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32304F082AFAFC05004BC81A = {
+			isa = PBXGroup;
+			children = (
+				32304F132AFAFC05004BC81A /* RealityKitFaceTracking */,
+				32304F122AFAFC05004BC81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32304F122AFAFC05004BC81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32304F112AFAFC05004BC81A /* RealityKitFaceTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32304F132AFAFC05004BC81A /* RealityKitFaceTracking */ = {
+			isa = PBXGroup;
+			children = (
+				32304F2A2AFB0D63004BC81A /* Textures */,
+				32304F142AFAFC05004BC81A /* AppDelegate.swift */,
+				32304F162AFAFC05004BC81A /* ContentView.swift */,
+				32304F262AFAFC8D004BC81A /* FaceTrackingARView.swift */,
+				32304F222AFAFC43004BC81A /* ViewModel.swift */,
+				32D2A8532AFD432A003D9830 /* HUDView.swift */,
+				32304F332AFB1AAC004BC81A /* MathLibrary.swift */,
+				32304F182AFAFC07004BC81A /* Assets.xcassets */,
+				32304F1A2AFAFC07004BC81A /* Preview Content */,
+			);
+			path = RealityKitFaceTracking;
+			sourceTree = "<group>";
+		};
+		32304F1A2AFAFC07004BC81A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32304F1B2AFAFC07004BC81A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32304F2A2AFB0D63004BC81A /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				32304F2B2AFB0D69004BC81A /* wireframeTexture.png */,
+				32D2A84F2AFC99CD003D9830 /* wireframeTextureGray.png */,
+				32304F312AFB1476004BC81A /* wireframeTextureFlipped.png */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32304F102AFAFC05004BC81A /* RealityKitFaceTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32304F1F2AFAFC07004BC81A /* Build configuration list for PBXNativeTarget "RealityKitFaceTracking" */;
+			buildPhases = (
+				32304F0D2AFAFC05004BC81A /* Sources */,
+				32304F0E2AFAFC05004BC81A /* Frameworks */,
+				32304F0F2AFAFC05004BC81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealityKitFaceTracking;
+			productName = RealityKitFaceTracking;
+			productReference = 32304F112AFAFC05004BC81A /* RealityKitFaceTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32304F092AFAFC05004BC81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					32304F102AFAFC05004BC81A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 32304F0C2AFAFC05004BC81A /* Build configuration list for PBXProject "RealityKitFaceTracking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32304F082AFAFC05004BC81A;
+			productRefGroup = 32304F122AFAFC05004BC81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32304F102AFAFC05004BC81A /* RealityKitFaceTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32304F0F2AFAFC05004BC81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32304F1C2AFAFC07004BC81A /* Preview Assets.xcassets in Resources */,
+				32304F322AFB1476004BC81A /* wireframeTextureFlipped.png in Resources */,
+				32304F2C2AFB0D69004BC81A /* wireframeTexture.png in Resources */,
+				32304F192AFAFC07004BC81A /* Assets.xcassets in Resources */,
+				32D2A8502AFC99CD003D9830 /* wireframeTextureGray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32304F0D2AFAFC05004BC81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D2A8542AFD432A003D9830 /* HUDView.swift in Sources */,
+				32304F172AFAFC05004BC81A /* ContentView.swift in Sources */,
+				32304F232AFAFC43004BC81A /* ViewModel.swift in Sources */,
+				32304F152AFAFC05004BC81A /* AppDelegate.swift in Sources */,
+				32304F272AFAFC8D004BC81A /* FaceTrackingARView.swift in Sources */,
+				32304F342AFB1AAC004BC81A /* MathLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32304F1D2AFAFC07004BC81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32304F1E2AFAFC07004BC81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32304F202AFAFC07004BC81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealityKitFaceTracking/Preview Content\"";
+				DEVELOPMENT_TEAM = HY8AUX8L27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.linebreak.RealityKitFaceTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32304F212AFAFC07004BC81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealityKitFaceTracking/Preview Content\"";
+				DEVELOPMENT_TEAM = HY8AUX8L27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.linebreak.RealityKitFaceTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32304F0C2AFAFC05004BC81A /* Build configuration list for PBXProject "RealityKitFaceTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32304F1D2AFAFC07004BC81A /* Debug */,
+				32304F1E2AFAFC07004BC81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32304F1F2AFAFC07004BC81A /* Build configuration list for PBXNativeTarget "RealityKitFaceTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32304F202AFAFC07004BC81A /* Debug */,
+				32304F212AFAFC07004BC81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32304F092AFAFC05004BC81A /* Project object */;
+}
